@@ -44,7 +44,7 @@ You can check out any commits and run locally on you own machine
   * build -> fail
   
   
-I am at a loss. I have added all of the logs to the repository as well. 
+I am at a loss. I have added all of the logs to the repository as well. Crash logs 11 are the logs after I removed the Pod file. 
 The can be found in `./crashlogs`
 
   
