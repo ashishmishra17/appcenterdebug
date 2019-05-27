@@ -40,6 +40,8 @@ You can check out any commits and run locally on you own machine
   * commit and build -> fail 
 16. Added back signing credentials to appcenter 
   * build -> fail
+17. After initial response from support ticket over the weekend, I removed the Pods file from git
+  * build -> fail
   
   
 I am at a loss. I have added all of the logs to the repository as well. 
