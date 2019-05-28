@@ -55,6 +55,12 @@ You can check out any commits and run locally on you own machine
     Installing glog (0.3.5)
     Installing yoga (0.59.8.React)
 21. Local Build succcessful commit to appcennter
+    * build -> failed.
+    * The only change was to the pod file adding the above pods
+    * check the logs in `./crashlogs/logs_16/` 
+    * The following build commands failed:
+    `Ld /Users/vsts/Library/Developer/Xcode/DerivedData/debugproject-frhbfcerhsbogmexcwddmwbbbhpn/Build/Intermediates.noindex/ArchiveIntermediates/debugproject/IntermediateBuildFilesPath/debugproject.build/Release-iphoneos/debugproject.build/Objects-normal/armv7/debugproject normal armv7`
+
   
   
 I am at a loss. I have added all of the logs to the repository as well. Crash logs 11 are the logs after I removed the Pod file. 
