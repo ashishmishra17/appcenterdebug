@@ -42,6 +42,19 @@ You can check out any commits and run locally on you own machine
   * build -> fail
 17. After initial response from support ticket over the weekend, I removed the Pods file from git
   * build -> fail
+18. After interaction with Support, and lookin at the logs to compare, a key difference is in legacy build system vs new
+19. I switech to legacy build system 
+    * build -> success
+    * So I tried the same thing in my other project and failed. 
+    * so now I am going to add the rest of the pods to this project and see if there is a problem
+20. added pods for basic react native and did pod update
+    Installing DoubleConversion (1.1.6)
+    Installing Folly (2018.10.22.00)
+    Installing React (0.59.8)
+    Installing boost-for-react-native (1.63.0)
+    Installing glog (0.3.5)
+    Installing yoga (0.59.8.React)
+21. Local Build succcessful commit to appcennter
   
   
 I am at a loss. I have added all of the logs to the repository as well. Crash logs 11 are the logs after I removed the Pod file. 
