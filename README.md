@@ -60,7 +60,11 @@ You can check out any commits and run locally on you own machine
     * check the logs in `./crashlogs/logs_16/` 
     * The following build commands failed:
     `Ld /Users/vsts/Library/Developer/Xcode/DerivedData/debugproject-frhbfcerhsbogmexcwddmwbbbhpn/Build/Intermediates.noindex/ArchiveIntermediates/debugproject/IntermediateBuildFilesPath/debugproject.build/Release-iphoneos/debugproject.build/Objects-normal/armv7/debugproject normal armv7`
-
+22.  followed support suggestion and read and followed article https://intercom.help/appcenter/build/ios/my-ios-builds-fail-with-clang-error-linker-command-failed-with-exit-code-1
+    * build failed again
+    * added logs to folder 18 in crash logs. 
+    * this is the failed command `he following build commands failed:
+	`Ld /Users/vsts/Library/Developer/Xcode/DerivedData/debugproject-frhbfcerhsbogmexcwddmwbbbhpn/Build/Intermediates.noindex/ArchiveIntermediates/debugproject/IntermediateBuildFilesPath/debugproject.build/Release-iphoneos/debugproject.build/Objects-normal/armv7/debugproject normal armv7 (1 failure)` THere is no clang error there. 
   
   
 I am at a loss. I have added all of the logs to the repository as well. Crash logs 11 are the logs after I removed the Pod file. 
